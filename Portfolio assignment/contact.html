@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect</title>
+    <style>
+    body {
+  background-image: url("./g_pic/new.jpg") ;
+  background-size: 1000px;
+  background-repeat:repeat-x;
+}
+       /* body {
+    background: #c5cad4;
+    background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+    margin: 0;
+    padding: 0;
+    color:blanchedalmond;
+  }
+  */
+    div{
+    text-align: center;
+    padding: 50px;
+    }
+    h1{
+        text-align: center;
+        color: blanchedalmond;
+    }
+    .picture{
+        padding: 2px;
+        margin: auto;
+        Display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box{
+        width: 10px;
+        margin: 0 5px;
+        /*box-shadow: 0 0 20px 2px rgba(0,0,0,0.1); */
+        transition: 0.4s;
+    }
+    .box:hover{
+        transform: scale(2);
+        z-index: 2;
+    }
+    
+    #nav_1 {
+      background-color: rgb(235, 231, 231);
+      padding: 7px;
+      border: 10px;
+      margin: 0%;
+    }
+    #home_head{
+      display: inline-block;
+      margin: 0px;
+    }
+    .cs3 {
+      padding-left: 0px;
+      transition: 0.1s;
+      color: rgb(100, 100, 237);
+      text-decoration: none;
+      
+    }
+    .cs3:hover {
+      transform: scale(2);
+      z-index: 2;
+      color: rgb(2, 2, 2);
+      padding: 10px;
+    }
+    #in[type=text] {
+      float: right;
+      padding: 3px;
+      border: none;
+      margin-top: 0px;
+      margin-right: 16px;
+      font-size: 12px;
+    }
+
+    </style>
+</head>
+<body>
+    
+    <nav id="nav_1">
+            <a class="cs3" href="./Home.html" target="_main">Home</a>
+            <input id="in" type="text" placeholder="Search..">
+    </nav>
+
+    <h1>Contact Me</h1>
+
+    <div class="picture">
+
+        <div class="box">
+            <a href="https://www.linkedin.com/in/kumar-gaurav-0331a8191" target="_main"> <img src="./g_pic/linkedin.png" alt="Linkdin" height="40" /> </a>
+        </div>
+        <div class="box">
+            <a href="https://www.kumar.gaurav4523@gmail.com" target="_main"> <img src="./g_pic/gmail.png" alt="Gmail" height="40"/> </a>
+        </div>
+        <div class="box">
+            <a href="https://github.com/Kr-gau-rav" target="_main"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqok_t04CdTulsFYgTjYph1fWVJ3rY_kPvw&usqp=CAU" alt="Github" height="40"/> </a>
+        </div>
+        <div class="box">
+            <a href="https://www.gaurav.kumar@zemosolabs.com" target="_main"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC5mG2iqmwFd8eg3BKfeR7qCG3TkCsOWsmfA&usqp=CAU" alt="Cliq" height="40"/> </a>
+        </div>
+    </div>
+</body>
+</html>
